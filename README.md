@@ -9,4 +9,4 @@ Uses GitHub API
 - User search functionality ( Search By username)
 
 # Screenshots
-![Welcome Screen](screenshots/homePage.png)
+![Welcome Screen](screenshots/HomePage.png)
