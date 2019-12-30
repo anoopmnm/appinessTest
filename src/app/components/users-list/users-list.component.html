@@ -1,0 +1,20 @@
+<div class="content" role="main">
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" (keyup)="onSearch($event)" name="search">
+    </div>
+</div>
+
+<div class="col-md-12">
+    <div class="row">
+        <div *ngFor="let user of filteredUserList" class="col-md-2 userCards">
+            <div mat-raised-button (click)="getUserRepos(user.repos_url, user.login)" class="card">
+                <img class="card-img-top" src="{{user.avatar_url}}" alt="No avatar image" style="width:100%">
+                <div class="card-body">
+                    <h5 class="card-title">{{user.login}}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ngx-spinner></ngx-spinner>

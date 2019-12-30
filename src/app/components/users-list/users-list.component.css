@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+    margin: 75px auto;
+    margin-bottom: 50px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px;
+}
+
+.userCards {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    margin-bottom: 0px !important;
+}
+
+.userReposHeader {
+    padding: 10px 0px 10px;
+    text-align: center;
+    background: #292c30;
+    color: wheat;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.userReposList {
+    max-height: 250px;
+    overflow-y: auto;
+    padding: 5px 5px;
+}

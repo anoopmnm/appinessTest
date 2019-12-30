@@ -1,0 +1,10 @@
+<mat-nav-list>
+    <div class="userReposHeader">
+        {{data.userName}}'s Repos
+    </div>
+    <div class="userReposList">
+        <div *ngFor="let repo of data.repoList" mat-list-item>
+            <span mat-line>{{repo.name}}</span>
+        </div>
+    </div>
+</mat-nav-list>
