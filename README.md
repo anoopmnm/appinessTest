@@ -1,14 +1,13 @@
 # appinessTest
-GitHub Clone
-
-Uses GitHub API
-
-# Features
+  Simple Application to list all GitHub users. 
+  
+## Features
 - List all github users 
 - On click of any user all repositories associated with that user will be displayed
 - User search functionality ( Search By username)
 
-# Screenshots
+## 
+## Screenshots
 ### Home
 ![Welcome Screen](screenshots/HomePage.png)
 ### All Users List
