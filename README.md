@@ -1,8 +1,17 @@
 # appinessTest
   Simple Application to list all GitHub users. 
-  
+
+## Dependencies
+- @angular/material
+- @angular/animations
+- bootstrap
+- ngx-spinner
+
 ## Instructions to Run the application
-`npm install`
+- Cone the project.
+- Use command `cd appinessTest` to move in to the repository.
+- Use command `npm install` to install dependencies.
+- Use command `ng serve` to serve the application.
   
 ## Features
 - List all github users 
