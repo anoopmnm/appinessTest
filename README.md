@@ -1,6 +1,9 @@
 # appinessTest
   Simple Application to list all GitHub users. 
   
+## Instructions to Run the application
+`npm install`
+  
 ## Features
 - List all github users 
 - On click of any user all repositories associated with that user will be displayed
